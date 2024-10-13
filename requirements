@@ -1,0 +1,8 @@
+# pip install -r requirements.txt
+
+# standard libs
+langchain==0.3.0
+pytube==15.0.0
+streamlit==1.39.0
+youtube_transcript_api==0.6.2
+langchain_google_genai==2.0.0
