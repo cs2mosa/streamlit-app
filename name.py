@@ -31,7 +31,7 @@ def get_wav(audio_dir):
 configurations = assemblyai.TranscriptionConfig(speech_model=assemblyai.SpeechModel.nano, language_code="ar")
 
 #now we go with the speech recognizing shit
-assemblyai.settings.api_key = "2382a5e71cc6422693a53a10d879995e"
+assemblyai.settings.api_key = "your api key"
 #now we go with the speech recognizing shit
 def get_text_small(file_name):
     transcription = assemblyai.Transcriber().transcribe(file_name,config=configurations)
