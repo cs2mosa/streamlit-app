@@ -9,5 +9,3 @@ print(langchain.__version__)
 #print(youtube_transcript_api.__version__)
 print(pytube.__version__)
 print(st.__version__)
-
-"AIzaSyCtGVfDOLxr0CXhFhp6t9c_uAqhyhjLCJM"
