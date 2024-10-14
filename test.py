@@ -2,7 +2,7 @@ import os
 import google.generativeai as palm
 from google.api_core import client_options as client_options_lib
 palm.configure(
-    api_key='AIzaSyCdw5fzywYXlD-5R045HVekKUvajh5ACZk',
+    api_key='your api key',
     transport="rest",
     client_options=client_options_lib.ClientOptions(
         api_endpoint=os.getenv("GOOGLE_API_BASE"),
